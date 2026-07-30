@@ -1,7 +1,26 @@
 aid: millennium-pharma
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/millennium-pharma.png
 name: Millennium Pharma
-description: Millennium Pharma is a company surfaced as a portfolio company of mayfield and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Millennium Pharmaceuticals is a biopharmaceutical company founded in 1993 in Cambridge,
+  Massachusetts, that pioneered a genomics-based, platform approach to drug discovery and
+  development. Backed early on by Mayfield, the company built its reputation on large research
+  and development alliances with major pharmaceutical partners and on discovering and
+  commercializing medicines for cancer and other diseases. Millennium was acquired by Takeda
+  Pharmaceutical Company in 2008 and now operates as the Takeda Oncology unit. It is a
+  therapeutics and drug-discovery organization, not an API or developer-platform provider, and
+  exposes no public developer portal, API documentation, or SDKs.
 url: https://raw.githubusercontent.com/api-evangelist/millennium-pharma/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +28,26 @@ x-backed-by:
 - mayfield
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-api-surface: none
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Pharmaceuticals
+- Biotechnology
+- Genomics
+- Drug Discovery
+- Oncology
+- Life Sciences
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
